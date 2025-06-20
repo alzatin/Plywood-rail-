@@ -1,6 +1,6 @@
 {
     "atomType": "Molecule",
-    "name": "Rail ",
+    "name": "Plywood-rail-",
     "x": 0.43,
     "y": 0.47289156626506024,
     "uniqueID": "91bbd0de-47b6-42f3-8709-2801b5cc40d5",
@@ -107,8 +107,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.233,
-            "y": 0.608433734939759,
+            "x": 0.23199999999999998,
+            "y": 0.5301204819277108,
             "uniqueID": "ad782fe4-8205-4bc1-9cb9-6262158f93c2",
             "ioValues": [
                 {
@@ -125,8 +125,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.373,
-            "y": 0.5060240963855421,
+            "x": 0.425,
+            "y": 0.4307228915662651,
             "uniqueID": "5421ce99-2859-4513-bf5f-2985b92ace3d",
             "ioValues": [
                 {
@@ -242,13 +242,13 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Groove-cutter",
-            "x": 0.222,
-            "y": 0.7560240963855422,
+            "x": 0.212,
+            "y": 0.8192771084337349,
             "uniqueID": "d2e279ed-5661-4832-a9d3-0ab0368778c8",
             "ioValues": [
                 {
                     "name": "length",
-                    "ioValue": 700
+                    "ioValue": 600
                 },
                 {
                     "name": "width",
@@ -351,7 +351,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 700
+                            "ioValue": 600
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -566,8 +566,8 @@
         {
             "atomType": "Equation",
             "name": "x -1",
-            "x": 0.188,
-            "y": 0.8554216867469879,
+            "x": 0.13999999999999999,
+            "y": 0.927710843373494,
             "uniqueID": "e52c6f92-c9b0-4b7f-94a7-1be23ca15da8",
             "ioValues": [
                 {
@@ -679,6 +679,20 @@
             "ap2Primary": false,
             "ap1ID": "784bb71c-be53-4cd1-ac87-7d4d0b9750d2",
             "ap2ID": "11f5070f-a449-41ca-9b2f-ba34e5640c8e"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y length",
+            "ap2Primary": false,
+            "ap1ID": "784bb71c-be53-4cd1-ac87-7d4d0b9750d2",
+            "ap2ID": "ad782fe4-8205-4bc1-9cb9-6262158f93c2"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "length",
+            "ap2Primary": false,
+            "ap1ID": "784bb71c-be53-4cd1-ac87-7d4d0b9750d2",
+            "ap2ID": "d2e279ed-5661-4832-a9d3-0ab0368778c8"
         },
         {
             "ap1Name": "geometry",
@@ -793,6 +807,7 @@
             "ap2ID": "2c2fc43b-35f6-4ea1-9969-9e9d115a2328"
         }
     ],
+    "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
